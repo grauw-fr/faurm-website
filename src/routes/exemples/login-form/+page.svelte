@@ -13,7 +13,7 @@
         description="SvelteKit remote form function, now with with validation and more !"
 ></Metadata>
 
-<small><a href="https://github.com/grauw-fr/faurm/tree/07e336bf9a40dd21b4705f9b0bcb788d131dc49c/src/routes/exemples/login-form">Source on github</a></small>
+<small><a href="https://github.com/grauw-fr/faurm-website/tree/main/src/routes/exemples/login-form" target="_blank">Source on github</a></small>
 <article>
     <header>
         Sign In
