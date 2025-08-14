@@ -1,0 +1,8 @@
+name: dev-faurm-website
+services:
+  faurm-website:
+    build:
+      context: ./
+      dockerfile: ./docker/dev/Dockerfile
+    ports:
+      - '${FAURM_WEBSITE_FORWARD_PORT:-5173}:5173'

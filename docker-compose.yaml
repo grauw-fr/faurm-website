@@ -1,0 +1,8 @@
+name: prod-faurm-website
+services:
+  faurm-website:
+    build:
+      context: ./
+      dockerfile: ./docker/prod/Dockerfile
+    ports:
+      - "13000:3000"
