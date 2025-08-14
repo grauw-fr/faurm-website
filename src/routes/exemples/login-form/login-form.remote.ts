@@ -11,5 +11,5 @@ const loginFormSchema = z.object({
 export const login = faurm(loginFormSchema, (data) => {
     // TODO: Run your logic here.
 
-    return faurmSuccess.ok(data);
+    return faurmSuccess.ok(Object.fromEntries(data.entries()));
 });
